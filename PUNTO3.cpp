@@ -1,4 +1,4 @@
-#include "PUNTO3GRUPAL.h"
+#include "PUNTO3HEADER.h"
 #include <stdlib.h>
 #include <string>
 #include <stdio.h>
