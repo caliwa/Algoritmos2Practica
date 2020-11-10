@@ -98,17 +98,13 @@ int main(int argc, char** argv){
                 	Cont3 = Cont3 + eliminarNodo(cabeza, NumAeliminar);
                 	system("cls"); 
         			break;
-               	case 4:
-                	GuardarArchivo(cabeza);
-                	Cont++;
-        			break;
-        		case 5:
+        		case 4:
 
         			mostrarLista(cabeza, Cont1);
         			system("Pause");
                 	system("cls");  		
         			break;
-                case 6:
+                case 5:
 					cout<<"\t\tEsta seguro de cerrar el programa? Ponga S mayuscula, de lo contrario digite la letra N"<<endl;
 					cout<<"\t\tDigite: ";
 					cin>>Cerrar;
@@ -138,7 +134,7 @@ int main(int argc, char** argv){
                 default:
                 	cout<<"\tError"<<endl;
             }
-        }while(op!=7);
+        }while(op!=6);
       return 0;
 }
 
@@ -159,11 +155,9 @@ void menu1()
     cout<<" \t\t|___|_____________________________________________| \n";
     cout<<" \t\t|3. | \tELIMINAR CONTACTO                         |"<<endl;
     cout<<" \t\t|___|_____________________________________________| \n";
-    cout<<" \t\t|4. | \tGUARDAR ARCHIVO		                  |"<<endl;
+    cout<<" \t\t|4. | \tMOSTRAR LA AGENDA COMPLETA                |"<<endl;
     cout<<" \t\t|___|_____________________________________________| \n";
-    cout<<" \t\t|5. | \tMOSTRAR LA AGENDA COMPLETA                |"<<endl;
-    cout<<" \t\t|___|_____________________________________________| \n";
-    cout<<" \t\t|6. | \tSALIR DE LA AGENDA TELEFONICA 2020-02     |"<<endl;
+    cout<<" \t\t|5. | \tSALIR DE LA AGENDA TELEFONICA 2020-02     |"<<endl;
     cout<<" \t\t|___|_____________________________________________| \n";
     cout<<" \t\t|   | 					          |"<<endl;
     cout<<" \t\t|___|_____________________________________________| \n";
